@@ -9,6 +9,7 @@ Personal website, published at **https://pjdisi.github.io/**.
 - `assets/cv.pdf`: CV linked from the website.
 - `.nojekyll`: serves the site as plain static files.
 - `robots.txt` and `sitemap.xml`: crawler access and the canonical homepage URL.
+- `google500d711f1eeeba9a.html`: Google Search Console ownership verification.
 
 ## Preview locally
 
@@ -38,10 +39,10 @@ The homepage includes a canonical URL and structured profile data. The sitemap i
 available at https://pjdisi.github.io/sitemap.xml.
 
 To request indexing, add `https://pjdisi.github.io/` as a **URL-prefix property**
-in [Google Search Console](https://search.google.com/search-console/). Choose
-**HTML tag** verification, add Google's exact verification tag inside the
-homepage's `<head>`, publish it, and click **Verify** in Search Console.
-Keep the tag in place after verification.
+in [Google Search Console](https://search.google.com/search-console/). The
+**HTML file** verification file is published at
+https://pjdisi.github.io/google500d711f1eeeba9a.html. Click **Verify** in
+Search Console and keep this file in place after verification.
 
 Then inspect the homepage URL and choose **Request indexing**. You can also
 submit `sitemap.xml` in the **Sitemaps** report. Crawling and indexing take time;
