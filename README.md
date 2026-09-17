@@ -40,9 +40,10 @@ available at https://pjdisi.github.io/sitemap.xml.
 
 To request indexing, add `https://pjdisi.github.io/` as a **URL-prefix property**
 in [Google Search Console](https://search.google.com/search-console/). The
+**HTML tag** verification token is included in the homepage's `<head>`, and the
 **HTML file** verification file is published at
-https://pjdisi.github.io/google500d711f1eeeba9a.html. Click **Verify** in
-Search Console and keep this file in place after verification.
+https://pjdisi.github.io/google500d711f1eeeba9a.html. Click **Verify** for either
+method in Search Console and keep its tag or file in place after verification.
 
 Then inspect the homepage URL and choose **Request indexing**. You can also
 submit `sitemap.xml` in the **Sitemaps** report. Crawling and indexing take time;
